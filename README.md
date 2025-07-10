@@ -2,39 +2,14 @@
 
 ## 简介
 
-A python library for decision tree visualization and model interpretation.  Decision trees are the fundamental building block of [gradient boosting machines](http://explained.ai/gradient-boosting/index.html) and [Random Forests](https://en.wikipedia.org/wiki/Random_forest)(tm), probably the two most popular machine learning models for structured data.  Visualizing decision trees is a tremendous aid when learning how these models work and when interpreting models. The visualizations are inspired by an educational animation by [R2D3](http://www.r2d3.us/); [A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/). Please see [How to visualize decision trees](http://explained.ai/decision-tree-viz/index.html) for deeper discussion of our decision tree visualization library and the visual design decisions we made.
-
-Currently dtreeviz supports: [scikit-learn](https://scikit-learn.org/stable), [XGBoost](https://xgboost.readthedocs.io/en/latest), [Spark MLlib](https://spark.apache.org/mllib/), [LightGBM](https://lightgbm.readthedocs.io/en/latest/), and [Tensorflow](https://www.tensorflow.org/decision_forests).  See [Installation instructions](README.md#Installation).
-
 ### Authors
-
-* [Terence Parr](https://explained.ai/), a tech lead at Google, and until 2022 was a professor of data science / computer science at Univ. of San Francisco, where he was founding director of the [University of San Francisco's MS in data science program](https://www.usfca.edu/arts-sciences/graduate-programs/data-science) in 2012.
-* [Tudor Lapusan](https://www.linkedin.com/in/tudor-lapusan-5902593b/)
-* [Prince Grover](https://www.linkedin.com/in/groverpr)
-
-With major code and visualization clean up contributions done by [Matthew Epland](https://www.linkedin.com/in/matthew-epland) (@mepland).
-
-## Sample Visualizations
+lization clean up contributions done by [Matthew Epland](https://www.linkedin.com/in/matthew-epland) (@mepland).
 
 ### Tree visualizations
 
-<table cellpadding="0" cellspacing="0">
-<tr>
-<td><img src="testing/samples/iris-TD-2.svg" width="250"></td>
-<td><img src="testing/samples/boston-TD-2.svg" width="250"></td>
-<td><img src="testing/samples/knowledge-TD-4-simple.svg" width="250"></td>
-</tr>
-</table>
 
 ### Prediction path explanations
 
-<table cellpadding="0" cellspacing="0">
-<tr>
-<td><img src="testing/samples/breast_cancer-TD-3-X.svg" width="250"></td>
-<td><img src="testing/samples/diabetes-LR-2-X.svg" width="300"></td>
-<td><img src="testing/samples/knowledge-TD-15-X-simple.svg" width="250"></td>
-</tr>
-</table>
 
 ### Leaf information
 
